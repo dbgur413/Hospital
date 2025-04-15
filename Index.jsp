@@ -104,7 +104,7 @@ window.onload = function () {
   var map = new kakao.maps.Map(mapContainer, mapOption);
 
   const xhr = new XMLHttpRequest();
-  const url = 'http://apis.data.go.kr/B551182/hospInfoServicev2/getHospBasisList?serviceKey=&pageNo=1&numOfRows=20';
+  const url = 'http://apis.data.go.kr/B551182/hospInfoServicev2/getHospBasisList?serviceKey=병원정보api&pageNo=1&numOfRows=20';
 
   xhr.open("GET", url);
   xhr.onreadystatechange = function () {

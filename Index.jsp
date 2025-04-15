@@ -104,7 +104,7 @@ window.onload = function () {
   var map = new kakao.maps.Map(mapContainer, mapOption);
 
   const xhr = new XMLHttpRequest();
-  const url = 'http://apis.data.go.kr/B551182/hospInfoServicev2/getHospBasisList?serviceKey=6TTpbn4o%2F82m%2BYRA%2FkMQPsDFAruF36PaOrLlSDiAlNGhX0g3FIR7%2Bn9kZ2EKtb%2FDK5JhwVOkCk%2BJR9HYIz03Sw%3D%3D&pageNo=1&numOfRows=20';
+  const url = 'http://apis.data.go.kr/B551182/hospInfoServicev2/getHospBasisList?serviceKey=&pageNo=1&numOfRows=20';
 
   xhr.open("GET", url);
   xhr.onreadystatechange = function () {
